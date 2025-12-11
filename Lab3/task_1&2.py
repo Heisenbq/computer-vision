@@ -24,10 +24,18 @@ kernel_3x3 = gaussian_kernel(3, 1, False)
 print("Yadro Svertki 3x3 (sigma=1) bez normirovki:")
 print(kernel_3x3)
 
+# kernel_5x5 = gaussian_kernel(5, 1, False)
+# print("\nYadro Svertki 5x5 (sigma=1) bez normirovki:")
+# print(kernel_5x5)
+
+# kernel_7x7 = gaussian_kernel(7, 1, False)
+# print("\nYadro Svertki 7x7 (sigma=1) bez normirovki:")
+# print(kernel_7x7)
+
 print("\nSumma elem yadra:", np.sum(kernel_3x3))
 
-kernel_3x3 = gaussian_kernel(3, 1, True)
-print("Yadro Svertki 3x3 (sigma=1) s normirovkoi:")
-print(kernel_3x3)
+# kernel_3x3 = gaussian_kernel(3, 1, True)
+# print("Yadro Svertki 3x3 (sigma=1) s normirovkoi:")
+# print(kernel_3x3)
 
-print("\nSumma elem yadra:", np.sum(kernel_3x3))
+# print("\nSumma elem yadra:", np.sum(kernel_3x3))

@@ -33,7 +33,7 @@ img = cv2.imread('assets/images/img2.jpg', cv2.IMREAD_GRAYSCALE)
 img_small = cv2.resize(img, (200, 200))  
 
 
-result = apply_gaussian_filter(img_small, size=11, sigma=3.0)
+result = apply_gaussian_filter(img_small, size=11, sigma=2.0)
 
 plt.subplot(1, 2, 1)
 plt.imshow(img_small, cmap='gray')
